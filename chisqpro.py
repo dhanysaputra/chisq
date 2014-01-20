@@ -9,4 +9,4 @@ while 1:
         if not line:
                 break
         if not 'NaN' in line:
-                print str(chisqprob(float(line.split('\t')[0]),1))+'\t'+line.split('\t')[0]+'\t'+line.split('\t')[1],
+                print str(chisqprob(float(line.split('\t')[0]),1))+'\t'+line.split('\t')[0]+'\t'+line.split('\t')[1]+'\t'+line.split('\t')[2],
