@@ -8,7 +8,7 @@ while 1:
 		break
 	if not line:
 		break
-	best[line.split('\t')[2]+'\t'+line.split('\t')[3].split('\n')[0]]=''
+	best[line.split('\t')[0]+'\t'+line.split('\t')[1]]=''
 for line in file(sys.argv[1], 'rU').readlines():
 	if line.startswith('#'):
 		print line,
